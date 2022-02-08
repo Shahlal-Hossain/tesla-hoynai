@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(images/Model3.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+#all-card-a{
+    display: none;
+}
+nav{
+    display: flex;
+    padding: 2px 6px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > img{
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 100px;
+    position: fixed;
+}
+.nav-link{
+    flex: 1;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    left: 250px;
+    position: fixed;
+}
+.span-n{
+    left: 100px;
+    position: relative;
+}
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-link ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-link ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(238, 255, 0);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-link ul li :hover::after{
+    width: 100%;
+}
+.content{
+    margin-top: 90px;
+}
+.bttn{
+    margin-top: 300px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 12px 40px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.bttn:hover{
+    border: 2px solid red;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.bttn a{
+    text-decoration: none;
+}
+.main-1{
+    background-image: url(images/model-y.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+.model-y{
+    color: wheat;
+    text-align: center;
+    justify-items: center;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 500px;
+}
+.main-2{
+    background-image: url(images/model-S.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+.model-s{
+    color: #000;
+    text-align: center;
+    justify-items: center;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 500px;
+}
+.main-3{
+    background-image: url(images/Model-X.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+.model-x{
+    color: #000;
+    text-align: center;
+    justify-items: center;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 500px;
+}
+.panels{
+    background-image: url(images/Tesla-Solar-hero.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+.panels-4{
+    color: #000;
+    text-align: center;
+    justify-items: center;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 500px;
+}
+.roof{
+    background-image: url(images/solar-roof.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+.roof-5{
+    color: rgb(224, 210, 13);
+    text-align: center;
+    justify-items: center;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+.Accessories{
+    background-image: url(images/na-mobile.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+.Accessories-6{
+    color: #000;
+    text-align: center;
+    justify-items: center;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 550px;
+}
+.shop{
+    margin-top: 300px;
+    display: inline-block;
+    color: #000;
+    border: 1.5px solid red;
+    border-radius: 15px;
+    padding: 12px 40px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    background-color: rgb(241, 214, 179);
+}
+.shop a{
+    text-decoration: none;
+}
+.images img{
+    width: 950px;
+    height: 450px;
+    margin: 0px 10px 1px 10px;
+}
+.images > div{
+    border: 2px solid black;
+    width: 1000px;
+    height: 600px;
+    margin: 30px;
+}
+.bodar{
+    border-bottom: 3px solid #000;
+    width: 100vw;
+}
+.fas{
+    font-size: 30px;
+    margin-left: 20px;
+    border: 2px solid darkorange;
+    background-color: rgb(145, 118, 84);
+}
+.text-center a{
+    text-decoration: none;
+}
+/* ============================ */
+#main-order{
+    display: none;
+}
+#main-order-1{
+    display: none;
+}
+#main-order-2{
+    display: none;
+}
+#main-order-3{
+    display: none;
+}
+#main-order-4{
+    display: none;
+}
